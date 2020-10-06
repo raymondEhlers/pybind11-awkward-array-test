@@ -1,3 +1,4 @@
-pybind11/
 build/
+dist/
 pybind11_awkward/*.so
+__pycache__/
