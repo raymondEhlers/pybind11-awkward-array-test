@@ -15,8 +15,9 @@ using namespace pybind11::literals;
 // Convenience for awkward.
 namespace ak = awkward;
 
-std::shared_ptr<ak::Content> findJetsAwkwardTest(const std::shared_ptr<ak::Content> & arr)
+std::shared_ptr<ak::Content> awkwardTest(const std::shared_ptr<ak::Content> & arr)
 {
+    std::cout << "In function\n";
     return arr;
 }
 
@@ -25,5 +26,5 @@ PYBIND11_MODULE(_src, m) {
   // Ensure dependencies are loaded.
   py::module::import("awkward1");
 
-  m.def("find_jets_awkward_test", &findJetsAwkwardTest, "events"_a, "Find jets awkward test for the given events according to the provided settings.");
+  m.def("awkward_test", &awkwardTest, "arr"_a, "...");
 }
