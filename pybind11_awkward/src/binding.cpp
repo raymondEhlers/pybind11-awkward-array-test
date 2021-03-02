@@ -30,7 +30,7 @@ std::shared_ptr<ak::NumpyArray> awkwardTestNumpyArray(const std::shared_ptr<ak::
 PYBIND11_MODULE(_src, m) {
   // Awkward array
   // Ensure dependencies are loaded.
-  py::module::import("awkward1");
+  py::module::import("awkward");
 
   m.def("awkward_test", &awkwardTest, "arr"_a, "...");
   m.def("awkward_test_numpy_array", &awkwardTestNumpyArray, "arr"_a, "...");

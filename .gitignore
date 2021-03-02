@@ -2,3 +2,5 @@ build/
 dist/
 pybind11_awkward/*.so
 __pycache__/
+
+.python-version

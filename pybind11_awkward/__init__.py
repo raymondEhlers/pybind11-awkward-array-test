@@ -1,9 +1,9 @@
-""" Test package for awkward1 with pybind11
+""" Test package for awkward with pybind11
 
 .. codeauthor:: Raymond Ehlers <raymond.ehlers@cern.ch>, ORNL
 """
 
-#import awkward1 as ak
+#import awkward as ak
 
 from pybind11_awkward._src import *
 
