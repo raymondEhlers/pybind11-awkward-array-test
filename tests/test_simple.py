@@ -8,3 +8,7 @@ def test_numpy_array() -> None:
 def test_awkward_array() -> None:
     pba.awkward_test(ak.Array([1,2,3]).layout)
 
+if __name__ == "__main__":
+    # Without pytest
+    test_numpy_array()
+    test_awkward_array()

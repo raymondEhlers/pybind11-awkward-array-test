@@ -3,6 +3,7 @@
 #include <pybind11/operators.h>
 #include <pybind11/stl.h>
 
+#include <awkward/Content.h>
 #include <awkward/array/NumpyArray.h>
 #include <awkward/builder/ArrayBuilder.h>
 #include <awkward/builder/ArrayBuilderOptions.h>
