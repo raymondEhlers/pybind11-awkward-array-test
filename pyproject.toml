@@ -55,5 +55,5 @@ skip_glob = ".*"
 line-length = 120
 
 [build-system]
-requires = ["poetry_core>=1.0.0", "awkward>=1.2.0rc2"]
+requires = ["poetry_core>=1.0.0", "cmake", "awkward>=1.2.0rc2"]
 build-backend = "poetry.core.masonry.api"
