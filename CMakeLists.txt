@@ -1,6 +1,6 @@
 # BSD 3-Clause License; see https://github.com/jpivarski/awkward-1.0/blob/master/LICENSE
 
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.1)
 project(pybind11_awkward)
 
 set(CMAKE_CXX_STANDARD 11)
