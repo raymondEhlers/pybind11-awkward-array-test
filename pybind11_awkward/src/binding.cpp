@@ -18,13 +18,13 @@ namespace ak = awkward;
 
 std::shared_ptr<ak::Content> awkwardTest(const std::shared_ptr<ak::Content> & arr)
 {
-    std::cout << "In function\n";
+    std::cout << "In function\n. Name: " << arr->classname() << "\n";
     return arr;
 }
 
 std::shared_ptr<ak::NumpyArray> awkwardTestNumpyArray(const std::shared_ptr<ak::NumpyArray> & arr)
 {
-    std::cout << "In function for NumpyArray\n";
+    std::cout << "In function for NumpyArray\n. Name: " << arr->classname() << "\n";
     return arr;
 }
 
